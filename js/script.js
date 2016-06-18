@@ -204,23 +204,24 @@ result = true
 console.log(result);
 */
 
-//STEP 23 Use the new operator to create a new Object called “widget”. Within the console window, use the typeof operator to display the type of variable widget is
+//STEP 23 
+/*
 function widget(){};
 widget = new widget();
 console.log(typeof (widget));
-/*
-
 */
 
-//STEP 24 1.	Using the instanceof operator, write an application that returns true within the console window if the widget variable is an instance of an object.
-
+//STEP 24 
 /*
-
+function a(){};
+function b(){};
+var widget = new a();
+console.log(widget instanceof a);
 */
 
-//STEP 25 1.	Without modifying the variable declaration and assignment, rewrite the previous application so that it returns false.
-
-/*
-
+//STEP 25 
+/*function a(){};
+function b(){};
+var widget = new a();
+console.log(widget instanceof b);
 */
-
