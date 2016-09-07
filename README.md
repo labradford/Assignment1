@@ -1,1 +1,1 @@
-This is the readme file for assignment2. There are two parts to assignment2.
+These are simple JavaScript learning exercises. Working with variables, data types and creating alerts.
